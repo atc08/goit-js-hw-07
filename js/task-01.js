@@ -7,13 +7,6 @@ console.log(`"В списке ${itemRef.length} категории"`);
 const titleRef = document.querySelectorAll("h2");
 const elementRef = document.querySelectorAll(".item > ul");
 
-// function itemOfList(cat, quan) {
-//   cat = `Категория: ${titleRef[].textContent}`;
-//   quan = `Количество элементов: ${elementRef[2].children.length}`;
-//   return console.log(cat, quan);
-// }
-// console.log(itemOfList());
-
 console.log(`Категория: ${titleRef[0].textContent}`);
 console.log(`Количество элементов: ${elementRef[0].children.length}`);
 console.log(`Категория: ${titleRef[1].textContent}`);
